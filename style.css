@@ -1,0 +1,189 @@
+
+body{ 
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+
+section{
+    margin: 50px;
+
+}
+
+.introduction{
+   
+    align-items: center;
+    display: flex;
+}
+
+
+.tag{
+    color: #f9a60b;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #ffc04cde;
+    padding: 10px 25px;
+    border-radius: 8px;
+
+}
+
+/* fonts awsome styles */
+.fa-solid{
+
+    margin-left: 10px;
+}
+.image{
+    padding-left: 190px;
+}
+
+/* About me sections */
+
+.about-me{
+  text-align: center;
+  color: #d53118e4;
+  font-weight: 800;
+  text-decoration:rgb(247, 180, 163) underline;
+}
+
+.my-self{
+    width: 1050px;
+    
+}
+
+.Linkedin-button{
+    margin-top: 30px;
+}
+
+.linkedin-link{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(243, 107, 53);
+    padding: 12px 35px;
+    border-radius: 8px;
+
+}
+
+/* blog sections styles */
+
+.blog-album{
+    align-items: center;
+    
+
+}
+
+.album{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+    
+}
+
+.blog-album{
+    display: flex;
+    
+    
+   
+}
+.pictures:hover img{
+
+    transform: scale(.8);
+    transition: 2s ease; 
+   
+}
+
+.details{
+    margin-left: 15px;
+}
+
+.pictures img{
+    width: 344px;
+}
+.text-color{
+    color: #f92b0b;
+}
+
+
+/* nodejs/backend sections styles */
+
+
+.Node-js{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+} 
+
+.tech-img img{
+    width: 544px;
+}
+.link-button{
+    text-decoration: none;
+    color: black;
+    background-color: #f6b53e;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+ /* python courses sections styles */
+
+
+
+.python-development{
+
+    display: flex;
+    align-items: center;
+}
+
+.python-course img{
+    width: 556px;
+}
+
+
+/* media query responsives */
+
+@media all and (max-width:500px) {
+
+
+    .introduction{
+        flex-direction: column;
+    }
+    .about-me{
+        width: 100%;
+    }
+    
+    .button{
+        padding: 15px 10px;
+    }
+    .fa-solid{
+        width: 10px;
+    }
+    .image img{
+        justify-content: center;
+        align-items: center;
+        width: 256px;
+        margin-right: 190px;
+    }
+   .album{
+       display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+    .blog-album{
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog-album img{
+        width: 100%;
+    }
+    .Node-js,.python-development{
+        flex-direction: column;
+    }
+    .tech-img img ,.python-course img{
+        width: 256px;
+    }
+   
+   
+}
