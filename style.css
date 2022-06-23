@@ -184,6 +184,8 @@ section{
     .tech-img img ,.python-course img{
         width: 256px;
     }
-   
+   .my-self{
+    width: 230px;
+   }
    
 }
