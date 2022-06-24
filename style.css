@@ -68,8 +68,17 @@ section{
 
 }
 
+.technologies-section{
+    display: flex;
+}
+
+.free-pik-img{
+    padding-left: 490px;
+}
+
 .my-pic{
-    width: 120px;
+    width: 450px;
+    border-radius: 10px;
 }
 
 /* blog sections styles */
