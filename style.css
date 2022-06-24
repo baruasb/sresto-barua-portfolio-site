@@ -41,6 +41,8 @@ section{
 
 /* About me sections */
 
+
+
 .about-me{
   text-align: center;
   color: #d53118e4;
@@ -64,6 +66,10 @@ section{
     padding: 12px 35px;
     border-radius: 8px;
 
+}
+
+.my-pic{
+    width: 120px;
 }
 
 /* blog sections styles */
