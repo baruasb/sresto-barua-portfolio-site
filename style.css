@@ -68,13 +68,12 @@ section{
 
 }
 
+
 .technologies-section{
     display: flex;
 }
+  
 
-.free-pik-img{
-    padding-left: 490px;
-}
 
 .my-pic{
     width: 450px;
@@ -205,5 +204,5 @@ section{
    .my-self{
     width: 230px;
    }
-   
+  
 }
